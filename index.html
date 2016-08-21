@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8"> 
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="UTF-8">
 		<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="bootstrap/js/jquery-3.1.0.min.js"></script>
+    	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 	</head>
 <body>
 
@@ -172,16 +175,16 @@
 		</div>
 		<div class="story">
 			<div class="image">
-				<img src="http://i.imgur.com/S9hk1gX.jpg">
+				<img src="http://i.imgur.com/S9hk1gX.jpg" data-toggle="modal" data-target="#project1">
 			</div>
 			<div class="cap">
-				<p>程式如詩優雅，讓全世界齊聲朗誦「Hello World」——專訪 Rails Girls 創辦人 Linda Liukas</p>
+				<p>程式如詩優雅，讓全世界齊聲朗誦「Hello World」——專訪 Rails Girls 創辦人</p>
 				<p><a href="http://www.inside.com.tw/2014/07/30/rails-girls-founder-linda-liukas-interview">Read</a></p>
 			</div>
 		</div>
 		<div class="story">
 			<div class="image">
-				<img src="http://i.imgur.com/Ktrv5u8.jpg">
+				<img src="http://i.imgur.com/Ktrv5u8.jpg" data-toggle="modal" data-target="#project2">
 			</div>
 			<div class="cap">
 				<p>一場 SXSW，看見台灣文化輸出與日韓的差距</p>
@@ -190,7 +193,7 @@
 		</div>
 		<div class="story">
 			<div class="image">
-				<img src="http://i.imgur.com/WFRI3bQ.jpg">
+				<img src="http://i.imgur.com/WFRI3bQ.jpg" data-toggle="modal" data-target="#project3">
 			</div>
 			<div class="cap">
 				<p>看 Airbnb 如何用故事行銷「洗腦」使用者</p>
@@ -199,7 +202,7 @@
 		</div>
 		<div class="story">
 			<div class="image">
-				<img src="http://i.imgur.com/EIJzZ5C.jpg">
+				<img src="http://i.imgur.com/EIJzZ5C.jpg" data-toggle="modal" data-target="#project4">
 			</div>
 			<div class="cap">
 				<p>從網路寵兒到自行車「黑手」，專訪中國非典型創業家 700Bike 張向東</p>
@@ -208,7 +211,7 @@
 		</div>
 		<div class="story">
 			<div class="image">
-				<img src="http://i.imgur.com/bJrY9IP.jpg">
+				<img src="http://i.imgur.com/bJrY9IP.jpg" data-toggle="modal" data-target="#project5">
 			</div>
 			<div class="cap">
 				<p>20 人台灣軟體公司，在全世界烙下印記——專訪 CloudMosa 創辦人沈修平</p>
@@ -223,7 +226,101 @@
 	</div>
 </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">程式如詩優雅，讓全世界齊聲朗誦「Hello World」——專訪 Rails Girls 創辦人 Linda Liukas</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive modal-img" src="http://i.imgur.com/S9hk1gX.jpg">
+                    高爾啓蒙了 Linda Liukas 對電腦的熱情，她並不是生來就著迷程式碼，更非天生好手，艱澀的 PHP 就令她感到挫敗，長達十年都不再接觸，大學浸淫機械、法文與哲學，程式宛如塵封角落，直到遇上 Ruby，才重新向她發出閃耀光芒。這也就是為何她愛 Ruby 至深，把 Ruby 形容為如詩一般美麗。Linda Liukas 在 2010 年創辦 Rails Girls，鼓舞更多人不再如她因恐懼而裹足不前。[<a href="http://www.inside.com.tw/2014/07/30/rails-girls-founder-linda-liukas-interview">閱讀更多</a>]
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">一場 SXSW，看見台灣文化輸出與日韓的差距</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://i.imgur.com/Ktrv5u8.jpg">
+                    SXSW 一般譯為「西南偏南」大會，在為期大約十天宛如嘉年華的活動中，集結最有才華的音樂人、最前衛的實驗電影、最酷炫的 Geek、最頂尖的品牌商，共聚德州首府奧斯丁，以數位科技為中心，帶給上萬與會者目不暇給的狂歡盛宴，科技創新與人文創意的界限消融在空氣中，兩者交織瀰漫在街道每個角落。[<a href="http://www.inside.com.tw/2015/05/04/streetvoice-in-sxsw">閱讀更多</a>]
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">看 Airbnb 如何用故事行銷「洗腦」使用者</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://i.imgur.com/WFRI3bQ.jpg">
+                    至今，Airbnb 已讓近百萬屋主放心的把鑰匙交給來自異地或異國的陌生人，同時也說服千萬名旅人捨棄舒適且安全有保障的旅館，反而對睡在陌生人家的沙發或氣墊床上躍躍欲試。 「外出旅行在陌生人家過夜」成為新的時尚，分享經濟成為最迷人的商業模式，Airbnb 成為矽谷身價最高的新創公司之一。靠著媒介你我的房間，4.5 億熱錢洶湧而來，估值已被推升到百億美金，甚至一舉超越全球頂尖跨國酒店集團凱悅（Hyatt）。[<a href="http://www.inside.com.tw/2015/02/11/airbnb-content-marketing">閱讀更多</a>]
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">從網路寵兒到自行車「黑手」，專訪中國非典型創業家 700Bike 張向東</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://i.imgur.com/EIJzZ5C.jpg">
+                    騎上單車，雙手握住車把，眼睛直視前方，呼吸、踩踏，在陌生的異地逐漸找到自己的節奏，周遭安靜無聲，這是感官與大自然難得親密接觸的時刻，也是張向東最享受的孤獨況味。感受「短暫飛行」，像是與世界失去關聯，置身另外一個星球，萬一出了事家人可能得搭上兩天兩夜的飛機才能抵達，這麼的遙遠。[<a href="http://www.inside.com.tw/2015/10/22/700-bike-interview">閱讀更多</a>]
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">
+                    20 人台灣軟體公司，在全世界烙下印記——專訪 CloudMosa 創辦人沈修平
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://i.imgur.com/bJrY9IP.jpg">
+                    歷經過 Google IPO、見識金錢如浪濤捲來的沈修平，成敗對他來說已是另外一種境界。「如果有任何一家公司相信我們的做法，而且做得更好，真的打破 digital devide，這代表我們成功了。如果 Google、蘋果、Facebook 都來做了，我當然開心得不得了。」[<a href="http://www.inside.com.tw/2015/11/27/cloudmosa-interview">閱讀更多</a>]
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<script type="text/javascript">
+		$('.modal').on('shown.bs.modal', function(){});
+	</script>
 
 </body>
 </html>
